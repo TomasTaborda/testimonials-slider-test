@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+section {
+  position: relative;
+}
+
+section .testimonio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 27px;
+  width: 60rem;
+  font-family: "Open Sans", sans-serif;
+  -webkit-box-shadow: 8px 11px 17px -7px rgba(163, 163, 163, 0.7);
+          box-shadow: 8px 11px 17px -7px rgba(163, 163, 163, 0.7);
+}
+
+section .testimonio img {
+  width: 20rem;
+  height: auto;
+  border-radius: 27px 0  0 27px;
+}
+
+section .testimonio div {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section .testimonio div h4 {
+  margin-top: 0.5rem;
+  width: 100%;
+  font-style: normal;
+  justify-self: flex-end;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+section .testimonio div p {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+section .hidden {
+  display: none;
+}
+
+section .botones {
+  width: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  right: 0;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 27px;
+  -webkit-box-shadow: 8px 11px 17px -7px rgba(163, 163, 163, 0.7);
+          box-shadow: 8px 11px 17px -7px rgba(163, 163, 163, 0.7);
+  z-index: 2;
+  margin-top: 20px;
+}
+
+section .botones img:hover {
+  cursor: pointer;
+  -webkit-filter: saturate(50);
+          filter: saturate(50);
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+}
+/*# sourceMappingURL=styles.css.map */
